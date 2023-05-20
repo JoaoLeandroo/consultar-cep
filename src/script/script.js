@@ -12,7 +12,7 @@ button.addEventListener("click", function() {
         .then((json) => {
 
             if(json.cep === undefined) {
-                alert("CEP NAO LOCALIZADO X")
+                alert("CEP NAO LOCALIZADO")
             }else{
                 alert(`
                 Cep: ${json.cep}
